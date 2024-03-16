@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const statsList = document.getElementById('stats-list');
     
-    fetch('https://api.github.com/users/yourusername')
+    fetch('https://api.github.com/users/IntegerAlex')
     .then(response => response.json())
     .then(data => {
         const stats = [
